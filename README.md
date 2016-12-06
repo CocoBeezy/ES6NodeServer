@@ -6,6 +6,6 @@ This is a ES6 node server starter kit with example mongoDB and CRUD API call imp
 2. Run `npm run devs` to run application in development mode on localhost:3090
 3. Run `npm run build` to build the es5 js files which are placed in the `dist` folder
 4. Run `npm start` to run the application forever in a production environment.
-5. [Here][1] is a link to the pm2 documentation for managing the pm2 process that is create from step 4.
+5. [Here][1] is a link to the pm2 documentation for managing the pm2 process that is created from step 4.
 
 [1]: https://github.com/Unitech/pm2
