@@ -31,7 +31,8 @@
     "cors": "^2.8.1",
     "express": "^4.14.0",
     "mongoose": "^4.5.10",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "pm2": "^2.1.6"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
