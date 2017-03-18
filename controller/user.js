@@ -1,15 +1,15 @@
-import mongoose from 'mongoose';
-import { Router } from 'express';
-import User from '../model/user';
+const mongoose = require('mongoose');
+const Router = require('express').Router;
+const User = require('../model/user');
 
-export default({ config, db }) => {
+module.exports = ({ config, db }) => {
   let api = Router();
 
   /********
    * CRUD *
    ********/
   // '/v1/user/add' - Create
-  api.post('/add', (req, res, next) => {
+  api.post('/', (req, res, next) => {
     let newUser = new User();
     newUser.name = req.body.name;
 
